@@ -10,6 +10,7 @@ class Admin extends Authenticatable
 {
     use HasFactory;
 
+    protected $table = 'admin';
     /**
      * The attributes that are mass assignable.
      *
